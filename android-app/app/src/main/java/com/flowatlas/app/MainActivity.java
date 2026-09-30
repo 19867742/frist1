@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         s.setTextZoom(100);
         s.setMediaPlaybackRequiresUserGesture(true);
         s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
-        WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG);
+       // WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG);
 
         final WebViewAssetLoader loader = new WebViewAssetLoader.Builder()
                 .setDomain(HOST)
